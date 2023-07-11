@@ -3,3 +3,70 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.menu__container {
+  background-color: rgb(74, 74, 74);
+  padding: 20px;
+  color: white;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo__img {
+  width: 120px;
+}
+
+.menus {
+  display: flex;
+}
+
+.item {
+  margin: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.item:hover {
+  color: blue;
+}
+
+/* Banner Area */
+
+.banner__img img {
+  width: 400px;
+}
+
+.banner__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background-image: url("../images/background.png"),
+    linear-gradient(45deg, #161616, #1d1a1a);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #de1111;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
